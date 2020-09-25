@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="135417" started-at="2020-09-24T05:21:56 PDT" finished-at="2020-09-24T05:24:11 PDT">
+  <suite name="Suite" duration-ms="83209" started-at="2020-09-25T01:17:36 PDT" finished-at="2020-09-25T01:19:00 PDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="135417" started-at="2020-09-24T05:21:56 PDT" finished-at="2020-09-24T05:24:11 PDT">
+    <test name="Test" duration-ms="83209" started-at="2020-09-25T01:17:36 PDT" finished-at="2020-09-25T01:19:00 PDT">
       <class name="com.atmecs.webtable.test.WebTable">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.webtable.test.WebTable@2a17b7b6]" name="invokeBrowser" is-config="true" duration-ms="121023" started-at="2020-09-24T05:21:56 PDT" finished-at="2020-09-24T05:23:57 PDT">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.webtable.test.WebTable@2a17b7b6]" name="invokeBrowser" is-config="true" duration-ms="72998" started-at="2020-09-25T01:17:36 PDT" finished-at="2020-09-25T01:18:49 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="FAIL" signature="getTableData()[pri:0, instance:com.atmecs.webtable.test.WebTable@2a17b7b6]" name="getTableData" duration-ms="4033" started-at="2020-09-24T05:23:57 PDT" finished-at="2020-09-24T05:24:01 PDT">
+        <test-method status="FAIL" signature="getTableData()[pri:0, instance:com.atmecs.webtable.test.WebTable@2a17b7b6]" name="getTableData" duration-ms="1332" started-at="2020-09-25T01:18:49 PDT" finished-at="2020-09-25T01:18:51 PDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody/tr/td[2]/p/a"}
-  (Session info: chrome=85.0.4183.102)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody/tr/td[6]/span"}
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-ATOQJFI', ip: '192.168.43.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 69344154d941cf4667f7126615d757f3
-*** Element info: {Using=xpath, value=//table//tbody/tr/td[2]/p/a}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 623ba3b0d607acf99c5bd1a10e9b5347
+*** Element info: {Using=xpath, value=//table//tbody/tr/td[6]/span}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody/tr/td[2]/p/a"}
-  (Session info: chrome=85.0.4183.102)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody/tr/td[6]/span"}
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-ATOQJFI', ip: '192.168.43.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 69344154d941cf4667f7126615d757f3
-*** Element info: {Using=xpath, value=//table//tbody/tr/td[2]/p/a}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 623ba3b0d607acf99c5bd1a10e9b5347
+*** Element info: {Using=xpath, value=//table//tbody/tr/td[6]/span}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,7 +48,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.atmecs.webtable.pages.WebTableHelper.getTableData(WebTableHelper.java:19)
+at com.atmecs.webtable.pages.WebTableHelper.getTableData(WebTableHelper.java:20)
 at com.atmecs.webtable.test.WebTable.getTableData(WebTable.java:12)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -86,7 +86,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getTableData -->
       </class> <!-- com.atmecs.webtable.test.WebTable -->
       <class name="com.atmecs.webtable.test.PurchaseProduct">
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.atmecs.webtable.test.PurchaseProduct@4f063c0a]" name="addToCart" duration-ms="10167" started-at="2020-09-24T05:24:01 PDT" finished-at="2020-09-24T05:24:11 PDT">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.atmecs.webtable.test.PurchaseProduct@4f063c0a]" name="addToCart" duration-ms="8772" started-at="2020-09-25T01:18:51 PDT" finished-at="2020-09-25T01:19:00 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->

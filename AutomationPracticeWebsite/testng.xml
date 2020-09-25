@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.atmecs.webtable.test.WebTable"/>
-      <class name="com.atmecs.webtable.test.PurchaseProduct"/>
+            <class name="com.atmecs.webtable.test.PurchaseProduct"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
